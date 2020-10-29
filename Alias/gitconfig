@@ -1,0 +1,34 @@
+  GNU nano 4.8                        /home/ankit/.gitconfig                                  
+[user]
+    name = User Name
+    email = abc@groww.in
+[core]
+    editor = code
+[alias]
+    aa = add --all
+    bv = branch -vv
+    ba = branch -ra
+    bd = branch -d
+    ca = commit --amend
+    cb = checkout -b
+    cm = commit -a --amend -C HEAD
+    ci = commit -a -v
+    br = branch
+    co = checkout
+    di = diff
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --num>
+    ld = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" ->
+    ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]">
+    mm = merge --no-ff
+    st = status --short --branch
+    tg = tag -a
+    pu = push --tags
+    un = reset --hard HEAD
+    uh = reset --hard HEAD^
+   [color]
+    diff = auto
+    status = auto
+    branch = auto
+   [branch]
+    autosetuprebase = always
+
